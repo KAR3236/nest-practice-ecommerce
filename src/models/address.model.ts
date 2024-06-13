@@ -12,7 +12,7 @@ export class Address {
   id: number;
 
   @Column()
-  user_id: string;
+  user_id: number;
 
   @Column()
   address_line_1: string;
@@ -30,7 +30,7 @@ export class Address {
   country: string;
 
   @Column()
-  pin_code: number;
+  pin_code: string;
 
   @CreateDateColumn()
   created_at: Date;

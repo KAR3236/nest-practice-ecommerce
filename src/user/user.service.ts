@@ -47,13 +47,13 @@ export class UserService {
         } else {
           return handelResponse({
             statusCode: 500,
-            message: message.PLEASE_TRY_AGAIN,
+            message: error.message,
           });
         }
       } else {
         return handelResponse({
           statusCode: 500,
-          message: message.PLEASE_TRY_AGAIN,
+          message: error.message,
         });
       }
     }
@@ -103,7 +103,7 @@ export class UserService {
     } catch (error) {
       return handelResponse({
         statusCode: 500,
-        message: message.PLEASE_TRY_AGAIN,
+        message: error.message,
       });
     }
   }
@@ -133,7 +133,7 @@ export class UserService {
     } catch (error) {
       return handelResponse({
         statusCode: 500,
-        message: message.PLEASE_TRY_AGAIN,
+        message: error.message,
       });
     }
   }
@@ -158,7 +158,7 @@ export class UserService {
     } catch (error) {
       return handelResponse({
         statusCode: 500,
-        message: message.PLEASE_TRY_AGAIN,
+        message: error.message,
       });
     }
   }
@@ -191,7 +191,7 @@ export class UserService {
     } catch (error) {
       return handelResponse({
         statusCode: 500,
-        message: message.PLEASE_TRY_AGAIN,
+        message: error.message,
       });
     }
   }
@@ -236,7 +236,7 @@ export class UserService {
     } catch (error) {
       return handelResponse({
         statusCode: 500,
-        message: message.PLEASE_TRY_AGAIN,
+        message: error.message,
       });
     }
   }

@@ -7,6 +7,7 @@ import { ConfigModule } from '@nestjs/config';
 import { User } from './models/user.model';
 import { Address } from './models/address.model';
 import { AuthModule } from './auth/auth.module';
+import { AddressModule } from './address/address.module';
 
 type Dialect = 'postgres';
 
@@ -28,6 +29,7 @@ type Dialect = 'postgres';
     }),
     UserModule,
     AuthModule,
+    AddressModule,
   ],
   controllers: [AppController],
   providers: [AppService],

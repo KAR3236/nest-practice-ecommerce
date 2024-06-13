@@ -5,6 +5,8 @@ export const message = {
   NOT_MATCHED: 'does not matched.',
   EMAIL_NOT_FOUND: 'Email not register.',
   VIEW_SUCCESSFULLY: 'view successfully.',
-  UPDATE_SUCCESSFULLY: 'update successfully.',
+  UPDATE_SUCCESSFULLY: 'updated successfully.',
   NOT_FOUND: 'not found.',
+  ADDED_SUCCESSFULLY: 'added successfully.',
+  DELETED_SUCCESSFULLY: 'deleted successfully.',
 };
